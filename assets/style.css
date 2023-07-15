@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+body{
+    font-family:Poppins;
+    margin-top: 50px;
+}
+
+.screen .cardbody{
+    padding: 20px; 
+}
+.screen .cardbody p{
+    font-size: 18px;
+}
+.screen .cardbody h1{
+    text-align: left;
+    font-size: 30px;
+}
+ .actionbtn{
+    text-align: left;
+    
+   
+}
+.screen .cardbody .actionbtn button{
+    padding: 5px 10px;
+    background-color: #8EA7E9;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: normal;
+    justify-content: flex-end;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: #E5E0FF;
+    padding:5%;
+    color: #738df3;
+}
+.sidebar h5{
+    text-align: center;
+    color:black;
+}
+.sidebar input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.sidebar select{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #738df3;
+    padding: 0 10px;
+    outline: none;
+}
+.color{
+    display: flex;
+}
+.color input{
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+}
+   
+.font-size input{
+    width: 70%;
+}
+.sidebar ul{
+    padding: 0;
+}
+.sidebar ul li{
+    padding-top: 15px;
+}
+.sidebar ul li p{
+    margin: 0;
+}
+.sidebar ul li .align button{
+    padding: 2px 7px;
+    border: 1px solid #fff;
+    color: skyblue;
+}
+.buttonColor{
+    display: flex;
+}
+.buttonColor input{
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.bgColor{
+    display: flex;
+}
+.bgColor input{
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    padding: 5px 10px;
+    outline: none;
+    margin-top:5px;
+}
+
+.element.style {
+}
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background: #d9d9d9;
+}
+
+/*======================
+    content style  
+ ======================*/
+
+.content textarea{
+    width: 100%;
+    outline: none;
+}
+
+.pcolor{
+    display: flex;
+}
+.pcolor input{
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.sidebar ul li .palign button{
+    padding: 2px 7px;
+    border: 1px solid #fff;
+    color: skyblue;
+}
+
+.sidebar ul li .btnalign button{
+    padding: 2px 7px;
+    border: 1px solid #fff;
+    color: skyblue;
+}
